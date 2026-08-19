@@ -27,4 +27,4 @@ Each app gets its own subfolder so policy URLs stay stable even as more apps are
 
 ## Contact
 
-For privacy-related inquiries: hzafar@techhorizonmsp.com
+For privacy-related inquiries: zharoon3@gmail.com
