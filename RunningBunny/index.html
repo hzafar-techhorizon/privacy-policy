@@ -1,100 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tech Horizon MSP — Privacy Policies</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Run Bunny — Privacy Policy</title>
 <style>
-  :root {
-    --bg: #fafaf9;
-    --card: #ffffff;
-    --border: #e7e5e4;
-    --text: #292524;
-    --muted: #78716c;
-    --accent: #b45309;
+  :root{
+    --coral:#FF5C8A; --sky:#57C6F5; --ink:#3A2B4D; --muted:#6B5E80;
+    --card:#ffffff; --bg1:#7FD0FF; --bg2:#D6F3FF; --line:#ECE6F2;
   }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.6;
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink); line-height:1.65;
+    background:linear-gradient(160deg,var(--bg1),var(--bg2) 60%,#ffffff);
+    min-height:100vh; padding:32px 18px;
   }
-  .wrap {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 64px 24px 96px;
+  .wrap{max-width:760px;margin:0 auto}
+  .card{
+    background:var(--card); border-radius:22px; padding:40px 34px;
+    box-shadow:0 18px 50px rgba(58,43,77,.16);
   }
-  header {
-    margin-bottom: 48px;
+  .brand{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+  .dot{width:46px;height:46px;border-radius:14px;background:var(--coral);
+    display:flex;align-items:center;justify-content:center;font-size:26px;flex:0 0 auto}
+  h1{font-size:1.9rem;margin:.2rem 0 .1rem}
+  .updated{color:var(--muted);font-size:.9rem;margin:0 0 1.6rem}
+  h2{font-size:1.15rem;margin:1.8rem 0 .5rem;color:var(--ink)}
+  p,li{color:#463a59}
+  a{color:var(--coral);font-weight:600;text-decoration:none}
+  a:hover{text-decoration:underline}
+  .pill{display:inline-block;background:#EAFBF4;color:#1EA983;border-radius:999px;
+    padding:4px 12px;font-weight:700;font-size:.85rem;margin:.2rem 0 1rem}
+  ul{padding-left:1.2rem}
+  footer{color:var(--muted);font-size:.82rem;text-align:center;margin-top:26px}
+  @media (prefers-color-scheme: dark){
+    :root{--card:#241636;--ink:#F3EEFB;--muted:#B9AAD0;--line:#3A2B4D;--bg1:#2A2E5A;--bg2:#3A2B4D}
+    body{background:linear-gradient(160deg,#2A2E5A,#3A2B4D 70%,#241636)}
+    p,li{color:#E6DEF3}
+    .pill{background:#123a2f;color:#4fe0b4}
   }
-  h1 {
-    font-size: 1.75rem;
-    margin: 0 0 8px;
-    letter-spacing: -0.01em;
-  }
-  header p {
-    color: var(--muted);
-    margin: 0;
-    font-size: 0.95rem;
-  }
-  .app-list {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-  .app-card {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 18px 20px;
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    text-decoration: none;
-    color: var(--text);
-    transition: border-color 0.15s ease;
-  }
-  .app-card:hover {
-    border-color: var(--accent);
-  }
-  .app-name {
-    font-weight: 600;
-    font-size: 1rem;
-  }
-  .app-arrow {
-    color: var(--accent);
-    font-size: 1.1rem;
-  }
-  footer {
-    margin-top: 64px;
-    padding-top: 24px;
-    border-top: 1px solid var(--border);
-    color: var(--muted);
-    font-size: 0.85rem;
-  }
-  footer a { color: var(--accent); }
 </style>
 </head>
 <body>
   <div class="wrap">
-    <header>
-      <h1>Tech Horizon MSP — Privacy Policies</h1>
-      <p>Privacy policies for applications developed under the Tech Horizon MSP brand.</p>
-    </header>
+    <div class="card">
+      <div class="brand"><div class="dot">🐰</div><div><h1>Run Bunny — Privacy Policy</h1></div></div>
+      <p class="updated">Last updated: 19 August 2026</p>
 
-    <div class="app-list">
-      <a class="app-card" href="./runningbunny/">
-        <span class="app-name">RunningBunny</span>
-        <span class="app-arrow">&rarr;</span>
-      </a>
-      <!-- Add a new <a class="app-card"> entry here for each additional app -->
+      <span class="pill">This app collects no data</span>
+
+      <p>Run Bunny is a single-player mobile game. Your privacy is simple to explain because the app is
+      built to need nothing from you.</p>
+
+      <h2>What we collect</h2>
+      <p><strong>Nothing.</strong> Run Bunny does not collect, transmit, or share any personal
+      information.</p>
+      <ul>
+        <li>No account or sign-in.</li>
+        <li>No analytics, advertising, or tracking of any kind.</li>
+        <li>No network access — the app declares no internet permission and makes no network requests.</li>
+      </ul>
+
+      <h2>Data stored on your device</h2>
+      <p>Your game progress — coins, best distance, unlocked skins, upgrades, missions, achievements,
+      and settings — is saved <strong>only on your device</strong> using standard Android local
+      storage. It never leaves your device and is not accessible to us. Uninstalling the app removes
+      this data.</p>
+
+      <h2>Children's privacy</h2>
+      <p>Run Bunny is suitable for all ages and collects no data from anyone, including children.</p>
+
+      <h2>Changes</h2>
+      <p>If this policy ever changes (for example, if a future version adds an optional online
+      feature), the updated policy will be posted at this URL with a new "last updated" date.</p>
+
+      <h2>Contact</h2>
+      <p>Questions? Contact us at <a href="mailto:zharoon3@gmail.com">zharoon3@gmail.com</a>.</p>
     </div>
-
-    <footer>
-      Questions about any policy? Contact <a href="mailto:zharoon3@gmail.com">zharoon3@gmail.com</a>.
-    </footer>
+    <footer>© 2026 Run Bunny</footer>
   </div>
 </body>
 </html>
