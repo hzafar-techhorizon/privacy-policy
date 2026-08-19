@@ -2,7 +2,7 @@
 
 This repository hosts the privacy policies for applications developed under the **Tech Horizon MSP** brand.
 
-🔗 Live site: https://hzafar-techhorizon.github.io/tech-horizon-privacy/
+🔗 Live site: https://hzafar-techhorizon.github.io/privacy-policy/
 
 ## Apps covered
 
@@ -27,4 +27,4 @@ Each app gets its own subfolder so policy URLs stay stable even as more apps are
 
 ## Contact
 
-For privacy-related inquiries: your-contact-alias@gmail.com
+For privacy-related inquiries: hzafar@techhorizonmsp.com
