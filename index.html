@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tech Horizon — Privacy Policies</title>
+<style>
+  :root {
+    --bg: #fafaf9;
+    --card: #ffffff;
+    --border: #e7e5e4;
+    --text: #292524;
+    --muted: #78716c;
+    --accent: #b45309;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+  header {
+    margin-bottom: 48px;
+  }
+  h1 {
+    font-size: 1.75rem;
+    margin: 0 0 8px;
+    letter-spacing: -0.01em;
+  }
+  header p {
+    color: var(--muted);
+    margin: 0;
+    font-size: 0.95rem;
+  }
+  .app-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .app-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 20px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--text);
+    transition: border-color 0.15s ease;
+  }
+  .app-card:hover {
+    border-color: var(--accent);
+  }
+  .app-name {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .app-arrow {
+    color: var(--accent);
+    font-size: 1.1rem;
+  }
+  footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Tech Horizon — Privacy Policies</h1>
+      <p>Privacy policies for applications developed under the Tech Horizon brand.</p>
+    </header>
+
+    <div class="app-list">
+      <a class="app-card" href="./runningbunny/">
+        <span class="app-name">RunningBunny</span>
+        <span class="app-arrow">&rarr;</span>
+      </a>
+      <!-- Add a new <a class="app-card"> entry here for each additional app -->
+    </div>
+
+    <footer>
+      Questions about any policy? Contact <a href="mailto:REPLACE_WITH_CONTACT_EMAIL">REPLACE_WITH_CONTACT_EMAIL</a>.
+    </footer>
+  </div>
+</body>
+</html>
